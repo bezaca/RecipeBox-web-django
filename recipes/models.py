@@ -5,7 +5,7 @@ class Recipe(models.Model):
 
     Recipe_Title = models.CharField(max_length=200)
     Recipe_Description = models.TextField(default='' , max_length=500)
-    Recipe_Image = models.ImageField(upload_to=None)
+    Recipe_Image = models.ImageField(upload_to="recipes/" , default="dummy.png")
     Recipe_Servings = models.TextField(max_length=20 , default='')
     Recipe_Ingredients = models.TextField(default='' , max_length=500  )
     Recipe_Preparation = models.TextField(default='' , max_length=1000 )
