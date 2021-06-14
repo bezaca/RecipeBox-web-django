@@ -1,7 +1,7 @@
 
 # Django Web Application
 
-Recipebox , is a minimal website for trying a few this in django 
+Recipebox is a minimal website for trying a few things in django 
 
 ## `Getting started:`
 
